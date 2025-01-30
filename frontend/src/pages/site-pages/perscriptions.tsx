@@ -1,3 +1,6 @@
+import React from "react";
+import HeaderBar from "../../components/navigation/header/HeaderBar";
+
 export default function Perscriptions() {
     const returnButton = [
         {
@@ -9,8 +12,8 @@ export default function Perscriptions() {
     return (
         <div>
             <div>
-                <HeaderBar
-                    
+                <HeaderBar 
+                    headerIcon={undefined}                    
                 />
             </div>
         </div>

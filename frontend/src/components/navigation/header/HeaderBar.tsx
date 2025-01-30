@@ -2,7 +2,7 @@ import React  from 'react';
 import HeaderBarTitle from "./HeaderBarTitle";
 
 interface HeaderBarProps {
-    headerIcon: any;
+    readonly headerIcon: any;
 }
 
 export default function HeaderBar({
@@ -11,7 +11,7 @@ export default function HeaderBar({
     return (
         <div>
             <HeaderBarTitle
-                icon={headerIcon}
+                icon={headerIcon}            
             />
         </div>
     );
